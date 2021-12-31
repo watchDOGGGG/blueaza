@@ -1,0 +1,228 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    .landingImg{
+      flex-grow: calc(1);
+      height:100vh;
+      background-image: url('./assets/connect3.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: left;
+      width:30%;
+    }
+    
+  .landingAuth{
+    height:100vh;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+    width: 70%;
+  }
+  .a_f{
+    display: flex;
+  }
+  .auth_content{
+    width: 40%
+  }
+  .a-f-c-1{
+    width: 75%
+  }
+  .a-f-2{
+    width: 75%
+  }
+  .auth_inputs{
+    width: 75%
+  }
+  .chat_input_area{
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 20px;
+  }
+.b_b{
+  display:none
+}
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    .landingImg{
+      flex-grow: calc(1);
+      height:100vh;
+      background-image: url('./assets/connect3.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: left;
+      width:30%;
+    }
+    
+  .landingAuth{
+    height:100vh;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+    width: 70%;
+  }
+  .a_f{
+    display: flex;
+  }
+  .auth_content{
+    width: 40%
+  }
+  .a-f-c-1{
+    width: 75%
+  }
+  .a-f-2{
+    width: 75%
+  }
+  
+  .auth_inputs{
+    width: 75%;
+  }
+  .chat_input_area{
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 20px;
+  }
+  .b_b{
+    display:none
+  }
+}
+ 
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    .landingImg{
+      display:none;
+    }
+    .a_f{
+      display: block;                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    }
+    .auth_content{
+      width: 100%
+    }
+    .a-f-c-1{
+      width: 90%
+    }
+    .a-f-2{
+      width: 100%
+    }
+    .auth_inputs{
+      width: 100%;
+    }
+   .section1{
+     display: none;
+   }
+    .section2{
+      display: none;
+    }
+    .section3{
+      width: 100%
+    }
+    .section4{
+      display: none;
+    }
+    .chat_input_area{
+      width: 100%;
+      margin: 0;
+    }
+    .b_b{
+      display:inline-block
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .landingImg{
+      display:none;
+    }
+    .a_f{
+      display: block;                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    }
+    .auth_content{
+      width: 100%
+    }
+    .a-f-c-1{
+      width: 90%
+    }
+    .a-f-2{
+      width: 100%
+    }
+    .auth_inputs{
+      width: 100%;
+    }
+   
+    .section1{
+      display: none;
+    }
+    .section2{
+      width: 100%;
+    }
+    .section3{
+      display: none;
+    }
+    .section4{
+      display: none;
+    }
+    .chat_input_area{
+      width: 100%;
+      margin: 0;
+    }
+    .b_b{
+      display:inline-block
+    }
+  }

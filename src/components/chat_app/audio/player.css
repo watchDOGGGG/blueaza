@@ -1,0 +1,45 @@
+#audioplayer{
+	width: 300px;
+	height: 40px;
+	margin: 0px auto auto auto;
+    display: flex;
+}
+
+.pButton{
+    height:60px; 
+    width: 60px;
+    border: none;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    outline:none;
+}
+/* 
+.play{background: url('http://www.alexkatz.me/codepen/img/play.png') ;}
+.pause{background: url('http://www.alexkatz.me/codepen/img/pause.png') ;} */
+
+.timeline{
+	width: 350px;
+	height: 2px;
+	margin-top: 16px;
+	float: left;
+	border-radius: 15px;
+	background: rgba(0,0,0,.3);
+  
+}
+.playhead{
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+	margin-top: -4px;
+	background: rgb(22, 118, 187);
+
+}
+#audioplayer button{
+    height:20px;
+    width:20px;
+}
+.audio-react-recorder__canvas{
+    width:200px;
+}
